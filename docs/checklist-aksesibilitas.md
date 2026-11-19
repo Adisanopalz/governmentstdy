@@ -1,0 +1,11 @@
+# Checklist Pengujian Aksesibilitas
+- [ ] Seluruh halaman dapat dioperasikan hanya dengan keyboard
+- [ ] Urutan fokus logis dan indikator fokus terlihat
+- [ ] Kontras teks minimal 4.5:1 (cek ketiga tema)
+- [ ] Zoom 200% tanpa kehilangan konten
+- [ ] Form: label, galat, dan status terbaca oleh NVDA/TalkBack
+- [ ] Judul halaman unik dan hierarki heading benar
+- [ ] Gambar informatif punya teks alternatif
+- [ ] Uji di ponsel (layar 360px)
+- [ ] Skor Lighthouse Accessibility >= 90, axe tanpa isu kritis
+- [ ] Uji usabilitas dengan minimal 5 warga termasuk lansia

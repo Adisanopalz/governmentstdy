@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id" data-fs="0">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ | Portal Layanan Publik Digital</title>
+<meta name="description" content="Prototipe portal layanan publik yang mudah diakses seluruh warga.">
+<meta name="theme-color" content="#0b5cab">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t&&t!=="light")document.documentElement.setAttribute("data-theme",t);var f=localStorage.getItem("fs");if(f)document.documentElement.dataset.fs=f}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#konten" data-i="skip">Lewati ke konten utama</a>
+<div class="topbar"><div class="wrap">
+<div class="tools" role="group" aria-label="Pengaturan tampilan">
+<button type="button" id="fs-dec" aria-label="Perkecil huruf">A-</button>
+<button type="button" id="fs-inc" aria-label="Perbesar huruf">A+</button>
+<button type="button" data-theme-btn="light" aria-pressed="true">Terang</button>
+<button type="button" data-theme-btn="dark" aria-pressed="false">Gelap</button>
+<button type="button" data-theme-btn="contrast" aria-pressed="false">Kontras tinggi</button>
+<button type="button" id="btn-lang" lang="en">English</button>
+</div>
+<span>Layanan bantuan: <a href="tel:+62000000000">(000) 0000-0000</a></span>
+</div></div>
+<header class="site"><div class="wrap">
+<a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="44" height="44"><span>Portal Warga<small>Pemerintah Kota Contoh (prototipe)</small></span></a>
+<nav aria-label="Navigasi utama"><ul><li><a href="index.html" data-i="home">Beranda</a></li><li><a href="layanan.html" data-i="services">Layanan</a></li><li><a href="pengaduan.html" data-i="complaint">Pengaduan</a></li><li><a href="lacak.html" data-i="track">Lacak</a></li><li><a href="faq.html" data-i="faq">FAQ</a></li><li><a href="arsitektur.html" data-i="arch">Arsitektur</a></li><li><a href="aksesibilitas.html" data-i="a11y">Aksesibilitas</a></li></ul></nav>
+</div></header>
+
+<main id="konten" tabindex="-1"><div class="wrap">
+<h1>Pertanyaan Umum</h1><details><summary>Apakah layanan ini berbayar?</summary><p>Pada prototipe ini tidak ada transaksi. Pada layanan nyata, biaya akan ditampilkan jelas pada tiap layanan.</p></details><details><summary>Bagaimana jika saya tidak bisa memakai internet?</summary><p>Gunakan loket layanan terpadu atau telepon pusat bantuan. Portal ini melengkapi, bukan menggantikan, layanan tatap muka.</p></details><details><summary>Apakah data saya aman?</summary><p>Prototipe hanya menyimpan data di browser Anda. Untuk produksi diperlukan enkripsi, kebijakan privasi, dan kepatuhan pada UU Pelindungan Data Pribadi.</p></details><details><summary>Bagaimana memperbesar huruf atau memakai kontras tinggi?</summary><p>Gunakan tombol A+/A- dan tombol tema di bagian atas setiap halaman. Pilihan Anda diingat.</p></details><details><summary>Apakah bisa dipakai dengan pembaca layar?</summary><p>Ya, halaman memakai struktur semantik, label form, dan penanda ARIA. Lihat halaman Aksesibilitas untuk detail.</p></details>
+</div></main>
+<footer class="site"><div class="wrap"><div class="cols">
+<section><h2>Tentang prototipe</h2><p>Proyek akademik: portal layanan publik dengan fokus kemudahan akses warga. Seluruh data adalah contoh dan tidak mewakili instansi nyata.</p></section>
+<section><h2>Tautan</h2><ul><li><a href="aksesibilitas.html">Pernyataan aksesibilitas</a></li><li><a href="arsitektur.html">Dokumen arsitektur</a></li><li><a href="faq.html">Pertanyaan umum</a></li></ul></section>
+<section><h2>Kontak</h2><p>Jl. Contoh No. 1, Kota Contoh<br>Senin-Jumat, 08.00-16.00</p></section>
+</div><p>&copy; 2026 Proyek Portal Layanan Publik Digital.</p></div></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/services.js"></script>
+<script src="js/app.js"></script>
+</body></html>
